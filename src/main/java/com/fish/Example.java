@@ -4,12 +4,21 @@ import com.birdbrain.Finch;
 
 public class Example {
     public static void main(String[] args) {
-        Finch fish = new Finch();
+        Finch turbo = new Finch();
 
-        fish.setMove("Forward", 50.0, 50.0);
-        fish.setTurn("L", 180, 90);
-        fish.setMove("Forward", 4.0, 4.0);
-        fish.playNote(60, 0.6);
+        boolean workshop = true;
+        while (workshop){
+            turbo.setTail("all", 0, 255, 255);
+            turbo.setBeak(231, 115, 44);
+            
+            turbo.setMove("Forward", 4.0, 50.0);
+            turbo.setTurn("L", 180, 90);
+            turbo.setMove("Forward", 4.0, 50.0);
+    
+            turbo.setTail("all", 0, 0, 0);
+            turbo.setBeak(0, 0, 0);
+
+        }
     }
 }
 /**
