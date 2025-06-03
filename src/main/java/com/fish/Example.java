@@ -6,8 +6,8 @@ public class Example {
     public static void main(String[] args) {
         Finch turbo = new Finch();
 
-        boolean workshop = true;
-        while (workshop){
+        /**boolean workshop = true;
+        for (int i = 0; i < 5; i++){
             //turbo.setTail("all", 0, 255, 255);
             turbo.setBeak(231, 115, 44);
             
@@ -17,8 +17,35 @@ public class Example {
     
             //turbo.setTail("all", 0, 0, 0);
             turbo.setBeak(0, 0, 0);
+            turbo.pause(0.3);
+        }*/
 
-        }
+        // ITS TIME TO GET FUNKY
+
+
+        // TO THE LEFT
+            turbo.setBeak(231, 115, 44);
+            turbo.setTurn("L", 90, 100);
+            turbo.setMove("Forward", 4, 100);
+            turbo.pause(.1);
+            turbo.setBeak(0, 0, 0);
+            turbo.setTurn("R", 90, 100);
+            turbo.pause(.1);
+        
+        //TAKE IT BACK NOW YALL
+        turbo.setBeak(231, 115, 44);
+        turbo.setMove("Backward", 4, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(0.2);
+        turbo.setBeak(231, 115, 44);
+        turbo.setMove("Backward", 4, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(.1);
+        
+        // ONE HOP THIS TIME
+        turbo.setTurn("L", 360, 100);
+
+
     }
 }
 /**
