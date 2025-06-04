@@ -21,38 +21,188 @@ public class Example {
         }*/
 
         // ITS TIME TO GET FUNKY
-
-
+        
+        
         // TO THE LEFT
-            turbo.setBeak(231, 115, 44);
-            turbo.setTurn("L", 90, 100);
-            turbo.setMove("Forward", 4, 100);
-            turbo.pause(.1);
-            turbo.setBeak(0, 0, 0);
-            turbo.setTurn("R", 90, 100);
-            turbo.pause(.1);
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("L", 90, 100);
+        turbo.setMove("Forward", 2, 100);
+        turbo.pause(.01);
+        turbo.setBeak(0, 0, 0);
+        turbo.setTurn("R", 90, 100);
+        turbo.pause(.01);
         
         //TAKE IT BACK NOW YALL
         turbo.setBeak(231, 115, 44);
-        turbo.setMove("Backward", 4, 100);
+        turbo.setMove("Backward", 1, 100);
         turbo.setBeak(0, 0, 0);
-        turbo.pause(0.2);
+        turbo.pause(0.01);
         turbo.setBeak(231, 115, 44);
-        turbo.setMove("Backward", 4, 100);
+        turbo.setMove("Backward", 1, 100);
         turbo.setBeak(0, 0, 0);
-        turbo.pause(.1);
+        turbo.pause(.3);
         
         // ONE HOP THIS TIME
+        turbo.setBeak(231, 115, 44);
         turbo.setTurn("L", 360, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(.1);
 
+        //right foot LETS STOMP
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("R", 45, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.setTurn("L", 45, 100);
+        turbo.pause(.01);
+
+        // ELFT FOOT LETS STOMP
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("L", 45, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.setTurn("R", 45, 100);
+        turbo.pause(.1);
+
+        
+        // cha cha real smooth
+        turbo.setBeak(231, 115, 44);
+        turbo.setMove("Forward", 2, 100);
+        turbo.setMove("Backward", 2, 100);
+        turbo.setMove("Forward", 2, 100);
+        turbo.setMove("Backward", 2, 100);
+        turbo.setMove("Forward", 2, 100);
+        turbo.setMove("Backward", 2, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(.9);
+
+        // TO THE LEFT
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("L", 90, 100);
+        turbo.setMove("Forward", 2, 100);
+        turbo.pause(.01);
+        turbo.setBeak(0, 0, 0);
+        turbo.setTurn("R", 90, 100);
+        turbo.pause(.01);
+    
+        //TAKE IT BACK NOW YALL
+        turbo.setBeak(231, 115, 44);
+        turbo.setMove("Backward", 1, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(0.01);
+        turbo.setBeak(231, 115, 44);
+        turbo.setMove("Backward", 1, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(.3);
+
+        // ONE HOP THIS TIME
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("L", 360, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(.1);
+
+        //right foot LETS STOMP
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("R", 45, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.setTurn("L", 45, 100);
+        turbo.pause(.01);
+
+        // ELFT FOOT LETS STOMP
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("L", 45, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.setTurn("R", 45, 100);
+        turbo.pause(.1);
+
+        
+        // cha cha real smooth
+        turbo.setBeak(231, 115, 44);
+        turbo.setMove("Forward", 2, 100);
+        turbo.setMove("Backward", 2, 100);
+        turbo.setMove("Forward", 2, 100);
+        turbo.setMove("Backward", 2, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(.7);
+
+        //NOW ITS TIME TO GET FUNKYYYYY
+
+        // TO THE RIGHT NOW
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("R", 30, 100);
+        turbo.setBeak(0, 0, 0);
+
+        // TO THE LEFT
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("L", 120, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.setTurn("R", 90, 100);
+
+        //TAKE IT BACK NOW YALL
+        turbo.setBeak(231, 115, 44);
+        turbo.setMove("Backward", 1, 100);
+        turbo.setMove("Backward", 1, 100);
+        turbo.setBeak(0, 0, 0);
+
+        // ONE HOP THIS TIME
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("L", 360, 100);
+        turbo.setBeak(0, 0, 0);
+
+        // ONE HOP THIS TIME
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("L", 360, 100);
+        turbo.setBeak(0, 0, 0);
+
+        // RIGHT FOOT TWO STOMPS
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("R", 22, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.setTurn("R", 22, 100);
+        turbo.setTurn("L", 44, 100);
+
+
+        // LEFT FOOT TWO STOMPS
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("L", 22, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.setTurn("L", 68, 100);
+        turbo.pause(.1);
+
+        //SLIDE TO THE LEFT
+        turbo.setBeak(231, 115, 44);
+        turbo.setMove("Forward", 2, 100);
+        turbo.setBeak(0, 0, 0);
+
+         //SLIDE TO THE RIGHT
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("R", 180, 100);
+        turbo.setMove("Forward", 2, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(.5);
+
+        //CRISS CROSS
+        turbo.setBeak(231, 115, 44);
+        turbo.setMove("B", 1, 100);
+        turbo.setMove("B", 1, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(.1);
+
+        //CRISS CROSS
+        turbo.setBeak(231, 115, 44);
+        turbo.setTurn("L", 180, 100);
+        turbo.setMove("B", 1, 100);
+        turbo.setMove("B", 1, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.setTurn("R", 90, 100);
+        turbo.pause(.3);
+
+        //cha cha real smooth
+        turbo.setBeak(231, 115, 44);
+        turbo.setMove("Forward", 2, 100);
+        turbo.setMove("Backward", 2, 100);
+        turbo.setMove("Forward", 2, 100);
+        turbo.setMove("Backward", 2, 100);
+        turbo.setBeak(0, 0, 0);
+        turbo.pause(.7);
 
     }
 }
-/**
-     * Set the specified tail led to the specified rgb color.
-     * @param ledNum - led to set (Range: 1 to 4)
-     * @param red - red intensity (Range: 0 to 100)
-     * @param green - green intensity (Range: 0 to 100)
-     * @param blue - blue intensity (Range: 0 to 100)
-     */
-    //public void setTail(int ledNum, int red, int green, int blue) {
